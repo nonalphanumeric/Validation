@@ -75,9 +75,9 @@ class Graph(dict):
         return self.initial
 
 
-def bfs(graph, o, on_discovery=lambda source, n, o: None,
+def bfs(graph, o, on_entry=lambda source, n, o: None,
         on_known=lambda source, n, o: None,
-        on_all_discovered=lambda source, o: None):
+        on_exit=lambda source, o: None):
     knowns = set()
     frontier = deque()
     at_start = True
@@ -93,10 +93,11 @@ def bfs(graph, o, on_discovery=lambda source, n, o: None,
             if n in knowns:
                 on_known(source, n, o)
                 continue
-            on_discovery(source, n, o)  # on decouvre un voisin
-            knowns.add(n)
-            frontier.append(n)
-        on_all_discovered(source, o)
+            else :
+                on_entry(source, n, o)  # on decouvre un voisin
+                knowns.add(n)
+                frontier.append(n)
+    on_exit(source, o)
     return knowns
 
 
@@ -122,8 +123,9 @@ if __name__ == "__main__":
             print("target trouvée : %s" % n)
 
 
-    def basic2(source, o):
-        o[0] += 1
+    def basic2(source, n,o):
+        if n is o:
+            print("target trouvée mais onknown")
 
 
     def nothing1(source, n, o):
@@ -133,9 +135,11 @@ if __name__ == "__main__":
     def nothing2(source, o):
         pass
 
+    def search_predicate(source,n, o):
+        pass
 
     o = "f"
-    bfs(graph, o, basic1, basic1, nothing2)
+    bfs(graph, o, basic1, basic2, nothing2)
 
     """
     a
