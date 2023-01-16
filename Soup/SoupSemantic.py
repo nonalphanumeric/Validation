@@ -1,7 +1,10 @@
+from abc import ABC
+
+from Soup.SemanticTransitionRelation import SemanticTransitionRelation
 from SoupProgram import SoupProgram
 
 
-class SoupSemantic:
+class SoupSemantic(SemanticTransitionRelation, ABC):
     def __init__(self, program):
         self.program = program
 
@@ -11,6 +14,6 @@ class SoupSemantic:
     def enabledActions(self, source):
         return filter(lambda r: r.guard(source), self.program.rules)
 
-    def execute(self, action, source):
+    def execute(self, rule, source):
         t = source.copy
-        return action.execute(t)
+        return rule.action(t)

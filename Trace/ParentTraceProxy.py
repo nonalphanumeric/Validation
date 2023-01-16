@@ -1,5 +1,5 @@
 from identityProxy import IdentityProxy
-from HanoiConfig import HanoiConfig
+from Hanoi.HanoiConfig import HanoiConfig
 
 
 class ParentTraceProxy(IdentityProxy):

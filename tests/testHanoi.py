@@ -1,4 +1,4 @@
-from HanoiRules import HanoiRules
+from Hanoi.HanoiRules import HanoiRules
 
 class TestHanoiRules:
     def test_next(self):

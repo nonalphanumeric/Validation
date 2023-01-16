@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fea4052e-f261-4521-a758-daa5e47b9b76" name="Changes" comment="trace" />
+    <list default="true" id="fea4052e-f261-4521-a758-daa5e47b9b76" name="Changes" comment="soupprogramm, soupsemantic, rule">
+      <change afterPath="$PROJECT_DIR$/Hanoi/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Soup/Aconfig.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Soup/ExempleSoup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Soup/SemanticTransitionRelation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Soup/Str2Tr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Soup/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trace/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Traversal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HanoiConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hanoi/HanoiConfig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HanoiRules.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hanoi/HanoiRules.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ParentTraceProxy.py" beforeDir="false" afterPath="$PROJECT_DIR$/Trace/ParentTraceProxy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rule.py" beforeDir="false" afterPath="$PROJECT_DIR$/Soup/Rule.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoupProgram.py" beforeDir="false" afterPath="$PROJECT_DIR$/Soup/SoupProgram.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoupSemantic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Soup/SoupSemantic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dictgraph.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identityProxy.py" beforeDir="false" afterPath="$PROJECT_DIR$/Trace/identityProxy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbBits.py" beforeDir="false" afterPath="$PROJECT_DIR$/NbBits/nbBits.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbits.py" beforeDir="false" afterPath="$PROJECT_DIR$/NbBits/nbits.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testHanoi.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/testHanoi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testnbBit.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/testnbBit.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,8 +65,15 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jezeg\PycharmProjects\Validation" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jezeg\PycharmProjects\Validation\Soup" />
+      <recent name="C:\Users\jezeg\PycharmProjects\Validation\Trace" />
+      <recent name="C:\Users\jezeg\PycharmProjects\Validation\Hanoi" />
+      <recent name="C:\Users\jezeg\PycharmProjects\Validation\tests" />
+      <recent name="C:\Users\jezeg\PycharmProjects\Validation\NbBits" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.ParentTraceProxy">
+  <component name="RunManager" selected="Python.ParentTraceProxy (1)">
     <configuration name="HanoiRules" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -56,7 +87,29 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HanoiRules.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\jezeg\PycharmProjects\Validation\Hanoi\HanoiRules.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ParentTraceProxy (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Validation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Trace" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Trace/ParentTraceProxy.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -78,7 +131,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ParentTraceProxy.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\jezeg\PycharmProjects\Validation\Trace\ParentTraceProxy.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -100,7 +153,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nbBits.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\jezeg\PycharmProjects\Validation\NbBits\nbBits.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -122,29 +175,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testnbBit.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="testnbBits (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Validation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testnbBits.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\jezeg\PycharmProjects\Validation\tests\testnbBit.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ParentTraceProxy (1)" />
         <item itemvalue="Python.ParentTraceProxy" />
         <item itemvalue="Python.HanoiRules" />
         <item itemvalue="Python.testnbBit" />
         <item itemvalue="Python.nbBits" />
-        <item itemvalue="Python.testnbBits (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +204,7 @@
       <updated>1673272327058</updated>
       <workItem from="1673272332182" duration="7357000" />
       <workItem from="1673594543097" duration="6738000" />
-      <workItem from="1673872856863" duration="3524000" />
+      <workItem from="1673872856863" duration="6634000" />
     </task>
     <task id="LOCAL-00001" summary="changes on alexis">
       <created>1673277670007</created>
@@ -203,7 +234,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673875388011</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="soupprogramm, soupsemantic, rule">
+      <created>1673876428746</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673876428746</updated>
+    </task>
+    <task id="LOCAL-00006" summary="soupprogramm, soupsemantic, rule">
+      <created>1673876442010</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673876442010</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +269,8 @@
     <MESSAGE value="changes on alexis" />
     <MESSAGE value="hanoi" />
     <MESSAGE value="trace" />
-    <option name="LAST_COMMIT_MESSAGE" value="trace" />
+    <MESSAGE value="soupprogramm, soupsemantic, rule" />
+    <option name="LAST_COMMIT_MESSAGE" value="soupprogramm, soupsemantic, rule" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Validation$alexis.coverage" NAME="alexis Coverage Results" MODIFIED="1673273296189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -233,5 +279,6 @@
     <SUITE FILE_PATH="coverage/Validation$testnbBit.coverage" NAME="testnbBit Coverage Results" MODIFIED="1673599608996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Validation$nbBits.coverage" NAME="nbBits Coverage Results" MODIFIED="1673599118769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Validation$testnbBits.coverage" NAME="testnbBits Coverage Results" MODIFIED="1673598244539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Validation$ParentTraceProxy__1_.coverage" NAME="ParentTraceProxy (1) Coverage Results" MODIFIED="1673879784655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Trace" />
   </component>
 </project>

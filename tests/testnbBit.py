@@ -1,5 +1,5 @@
 import unittest
-from nbBits import NbBits
+from NbBits.nbBits import NbBits
 
 
 class TestNbBits(unittest.TestCase):
