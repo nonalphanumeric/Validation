@@ -1,30 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fea4052e-f261-4521-a758-daa5e47b9b76" name="Changes" comment="soupprogramm, soupsemantic, rule">
-      <change afterPath="$PROJECT_DIR$/Hanoi/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Soup/Aconfig.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Soup/ExempleSoup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Soup/SemanticTransitionRelation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Soup/Str2Tr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Soup/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trace/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Traversal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
+    <list default="true" id="fea4052e-f261-4521-a758-daa5e47b9b76" name="Changes" comment="Str tr soup">
+      <change afterPath="$PROJECT_DIR$/Misc/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanoiConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hanoi/HanoiConfig.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HanoiRules.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hanoi/HanoiRules.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ParentTraceProxy.py" beforeDir="false" afterPath="$PROJECT_DIR$/Trace/ParentTraceProxy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rule.py" beforeDir="false" afterPath="$PROJECT_DIR$/Soup/Rule.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoupProgram.py" beforeDir="false" afterPath="$PROJECT_DIR$/Soup/SoupProgram.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoupSemantic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Soup/SoupSemantic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dictgraph.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/identityProxy.py" beforeDir="false" afterPath="$PROJECT_DIR$/Trace/identityProxy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbBits.py" beforeDir="false" afterPath="$PROJECT_DIR$/NbBits/nbBits.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbits.py" beforeDir="false" afterPath="$PROJECT_DIR$/NbBits/nbits.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testHanoi.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/testHanoi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testnbBit.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/testnbBit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hanoi/HanoiRules.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hanoi/HanoiRules.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NbBits/nbBits.py" beforeDir="false" afterPath="$PROJECT_DIR$/NbBits/nbBits.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NbBits/nbits.py" beforeDir="false" afterPath="$PROJECT_DIR$/NbBits/nbits.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Soup/ExempleSoup.py" beforeDir="false" afterPath="$PROJECT_DIR$/Soup/ExempleSoup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Soup/Str2Tr.py" beforeDir="false" afterPath="$PROJECT_DIR$/Soup/Str2Tr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Traversal.py" beforeDir="false" afterPath="$PROJECT_DIR$/Misc/Traversal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alexis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Misc/alexis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transitionRelation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Misc/transitionRelation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +44,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jezeg/PycharmProjects/Validation&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jezeg/Documents/cours/S5/sys_distrib/tp&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
@@ -66,11 +53,11 @@
       <recent name="C:\Users\jezeg\PycharmProjects\Validation" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jezeg\PycharmProjects\Validation\Misc" />
       <recent name="C:\Users\jezeg\PycharmProjects\Validation\Soup" />
       <recent name="C:\Users\jezeg\PycharmProjects\Validation\Trace" />
       <recent name="C:\Users\jezeg\PycharmProjects\Validation\Hanoi" />
       <recent name="C:\Users\jezeg\PycharmProjects\Validation\tests" />
-      <recent name="C:\Users\jezeg\PycharmProjects\Validation\NbBits" />
     </key>
   </component>
   <component name="RunManager" selected="Python.ParentTraceProxy (1)">
@@ -204,7 +191,9 @@
       <updated>1673272327058</updated>
       <workItem from="1673272332182" duration="7357000" />
       <workItem from="1673594543097" duration="6738000" />
-      <workItem from="1673872856863" duration="6634000" />
+      <workItem from="1673872856863" duration="7929000" />
+      <workItem from="1673959382537" duration="74000" />
+      <workItem from="1674477669824" duration="1125000" />
     </task>
     <task id="LOCAL-00001" summary="changes on alexis">
       <created>1673277670007</created>
@@ -248,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673876442010</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Str tr soup">
+      <created>1673881496597</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673881496597</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +266,8 @@
     <MESSAGE value="hanoi" />
     <MESSAGE value="trace" />
     <MESSAGE value="soupprogramm, soupsemantic, rule" />
-    <option name="LAST_COMMIT_MESSAGE" value="soupprogramm, soupsemantic, rule" />
+    <MESSAGE value="Str tr soup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Str tr soup" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Validation$alexis.coverage" NAME="alexis Coverage Results" MODIFIED="1673273296189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

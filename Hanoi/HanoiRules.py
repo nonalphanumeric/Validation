@@ -1,6 +1,6 @@
-from copy import deepcopy, copy
+from copy import deepcopy
 
-from transitionRelation import TransitionRelation
+from Misc.transitionRelation import TransitionRelation
 
 
 class HanoiRules(TransitionRelation):

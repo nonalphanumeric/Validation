@@ -1,6 +1,6 @@
 from copy import deepcopy
 
-from transitionRelation import TransitionRelation
+from Misc.transitionRelation import TransitionRelation
 
 
 class NbBits(TransitionRelation):

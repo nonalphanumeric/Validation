@@ -1,4 +1,4 @@
-from transitionRelation import TransitionRelation
+from Misc.transitionRelation import TransitionRelation
 
 
 class NBits(TransitionRelation):
