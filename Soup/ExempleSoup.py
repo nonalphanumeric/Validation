@@ -17,3 +17,4 @@ p = SoupProgram(iC)
 s = SoupSemantic(p)
 tr = Str2Tr(s)
 predicate_finder(tr, lambda c: c.x == c.y)
+
