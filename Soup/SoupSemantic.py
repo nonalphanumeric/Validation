@@ -14,23 +14,27 @@ class SoupSemantic(SemanticTransitionRelation, ABC):
         return [self.program.ini]
 
     def enabledActions(self, source):
-        return filter(lambda r: r.guard(source), self.program.rules)
+        return list(filter(lambda r: r.guard(source), self.program.rules))
 
     def execute(self, rule, source):
         t = copy.deepcopy(source)
-        rule(t)
-        return t
+        rule.execute(t)  # t : un config cf class Rule
+        return [t]
 
 
 class Str2Tr(TransitionRelation):
-    iC = [False, False]
-    program = SoupProgram(iC)
-    s = SoupSemantic(program)
-    roots = s.initialConf()
-    TransitionRelation.next(roots)
 
+    def __init__(self, str):
+        self.str = str
 
-def soup_predicate_verif(soup_program, predicate):
-    semantic = SoupSemantic(soup_program)
-    transition_relation = Str2Tr(semantic)
-    predicate(transition_relation, predicate)
+    def roots(self):
+        #return la config initale de semanticTR cf. plus haut
+        return self.str.initalConf()
+
+    def next(self, source):
+        actions = self.str.enabledActions(source)
+        res = []
+        for action in actions:
+            res.extend(self.str.execute(action, source))
+        return res
+

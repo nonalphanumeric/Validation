@@ -8,9 +8,9 @@ class SemanticTransitionRelation(ABC):
         pass
 
     @abstractmethod
-    def enabledActions(self,c):
+    def enabledActions(self,source):
         pass
 
     @abstractmethod
-    def execute(self,a,c):
+    def execute(self,a,source):
         pass

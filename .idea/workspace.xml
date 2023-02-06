@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fea4052e-f261-4521-a758-daa5e47b9b76" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/Misc/DicGraph.py" afterDir="false" />
+    <list default="true" id="fea4052e-f261-4521-a758-daa5e47b9b76" name="Changes" comment="ptp prblm">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trace/ParentTraceProxy.py" beforeDir="false" afterPath="$PROJECT_DIR$/Trace/ParentTraceProxy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Soup/Aconfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/Soup/Aconfig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Soup/Rule.py" beforeDir="false" afterPath="$PROJECT_DIR$/Soup/Rule.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Soup/SemanticTransitionRelation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Soup/SemanticTransitionRelation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Soup/SoupSemantic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Soup/SoupSemantic.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +192,7 @@
       <workItem from="1674477669824" duration="5578000" />
       <workItem from="1675079271510" duration="5366000" />
       <workItem from="1675687054360" duration="696000" />
-      <workItem from="1675687759140" duration="2756000" />
+      <workItem from="1675687759140" duration="4474000" />
     </task>
     <task id="LOCAL-00001" summary="changes on alexis">
       <created>1673277670007</created>
@@ -262,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675687094118</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="ptp prblm">
+      <created>1675690558442</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1675690558442</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,7 +295,8 @@
     <MESSAGE value="soupprogramm, soupsemantic, rule" />
     <MESSAGE value="Str tr soup" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="ptp prblm" />
+    <option name="LAST_COMMIT_MESSAGE" value="ptp prblm" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Validation$HanoiRules.coverage" NAME="HanoiRules Coverage Results" MODIFIED="1673599657839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
