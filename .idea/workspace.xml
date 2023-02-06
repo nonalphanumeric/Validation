@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fea4052e-f261-4521-a758-daa5e47b9b76" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/tests/SoupSemanticTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Misc/DicGraph.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Misc/Traversal.py" beforeDir="false" afterPath="$PROJECT_DIR$/Misc/Traversal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Misc/alexis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Misc/introBFS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Soup/ExempleSoup.py" beforeDir="false" afterPath="$PROJECT_DIR$/Soup/ExempleSoup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Soup/NBitsConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/NbBits/NBitsConfig.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Soup/Rule.py" beforeDir="false" afterPath="$PROJECT_DIR$/Soup/Rule.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Soup/SoupSemantic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Soup/SoupSemantic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Soup/Str2Tr.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Trace/ParentTraceProxy.py" beforeDir="false" afterPath="$PROJECT_DIR$/Trace/ParentTraceProxy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/testHanoi.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/testHanoi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +37,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jezeg/PycharmProjects/Validation/Soup&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jezeg/PycharmProjects/Validation&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
@@ -62,7 +54,7 @@
       <recent name="C:\Users\jezeg\PycharmProjects\Validation\Hanoi" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.introBFS">
+  <component name="RunManager" selected="Python.ParentTraceProxy (1)">
     <configuration name="ExempleSoup" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Validation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -175,9 +167,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ParentTraceProxy (1)" />
         <item itemvalue="Python.introBFS" />
         <item itemvalue="Python.ExempleSoup" />
-        <item itemvalue="Python.ParentTraceProxy (1)" />
         <item itemvalue="Python.ParentTraceProxy" />
         <item itemvalue="Python.HanoiRules" />
       </list>
@@ -197,6 +189,8 @@
       <workItem from="1673959382537" duration="74000" />
       <workItem from="1674477669824" duration="5578000" />
       <workItem from="1675079271510" duration="5366000" />
+      <workItem from="1675687054360" duration="696000" />
+      <workItem from="1675687759140" duration="2756000" />
     </task>
     <task id="LOCAL-00001" summary="changes on alexis">
       <created>1673277670007</created>
@@ -261,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675079314867</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update">
+      <created>1675687094118</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1675687094118</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,6 +296,6 @@
     <SUITE FILE_PATH="coverage/Validation$ExempleSoup.coverage" NAME="ExempleSoup Coverage Results" MODIFIED="1675083244466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Soup" />
     <SUITE FILE_PATH="coverage/Validation$nbBits.coverage" NAME="nbBits Coverage Results" MODIFIED="1673599118769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Validation$testnbBits.coverage" NAME="testnbBits Coverage Results" MODIFIED="1673598244539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/Validation$ParentTraceProxy__1_.coverage" NAME="ParentTraceProxy (1) Coverage Results" MODIFIED="1675080198933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Trace" />
+    <SUITE FILE_PATH="coverage/Validation$ParentTraceProxy__1_.coverage" NAME="ParentTraceProxy (1) Coverage Results" MODIFIED="1675690241327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Trace" />
   </component>
 </project>
