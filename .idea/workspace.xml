@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fea4052e-f261-4521-a758-daa5e47b9b76" name="Changes" comment="Str tr soup">
-      <change afterPath="$PROJECT_DIR$/Soup/InputSemanticTransitionRelation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Soup/NBitsConfig.py" afterDir="false" />
+    <list default="true" id="fea4052e-f261-4521-a758-daa5e47b9b76" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/tests/SoupSemanticTest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Misc/Traversal.py" beforeDir="false" afterPath="$PROJECT_DIR$/Misc/Traversal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Misc/alexis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Misc/introBFS.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Soup/ExempleSoup.py" beforeDir="false" afterPath="$PROJECT_DIR$/Soup/ExempleSoup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Soup/NBitsConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/NbBits/NBitsConfig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Soup/Rule.py" beforeDir="false" afterPath="$PROJECT_DIR$/Soup/Rule.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Soup/SoupSemantic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Soup/SoupSemantic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Soup/Str2Tr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trace/ParentTraceProxy.py" beforeDir="false" afterPath="$PROJECT_DIR$/Trace/ParentTraceProxy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testHanoi.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/testHanoi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,14 +55,14 @@
       <recent name="C:\Users\jezeg\PycharmProjects\Validation" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jezeg\PycharmProjects\Validation\NbBits" />
       <recent name="C:\Users\jezeg\PycharmProjects\Validation\Misc" />
       <recent name="C:\Users\jezeg\PycharmProjects\Validation\Soup" />
       <recent name="C:\Users\jezeg\PycharmProjects\Validation\Trace" />
       <recent name="C:\Users\jezeg\PycharmProjects\Validation\Hanoi" />
-      <recent name="C:\Users\jezeg\PycharmProjects\Validation\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ExempleSoup">
+  <component name="RunManager" selected="Python.introBFS">
     <configuration name="ExempleSoup" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Validation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -144,20 +151,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="testnbBit" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="introBFS" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Validation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\jezeg\AppData\Local\JetBrains\PyCharm2022.1\demo\PyCharmLearningProject\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Misc" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\jezeg\PycharmProjects\Validation\tests\testnbBit.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\jezeg\PycharmProjects\Validation\Misc\introBFS.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.introBFS" />
         <item itemvalue="Python.ExempleSoup" />
         <item itemvalue="Python.ParentTraceProxy (1)" />
         <item itemvalue="Python.ParentTraceProxy" />
         <item itemvalue="Python.HanoiRules" />
-        <item itemvalue="Python.testnbBit" />
       </list>
     </recent_temporary>
   </component>
@@ -189,6 +196,7 @@
       <workItem from="1673872856863" duration="7929000" />
       <workItem from="1673959382537" duration="74000" />
       <workItem from="1674477669824" duration="5578000" />
+      <workItem from="1675079271510" duration="5366000" />
     </task>
     <task id="LOCAL-00001" summary="changes on alexis">
       <created>1673277670007</created>
@@ -246,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674478983431</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update">
+      <created>1675079314867</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1675079314867</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,16 +284,17 @@
     <MESSAGE value="trace" />
     <MESSAGE value="soupprogramm, soupsemantic, rule" />
     <MESSAGE value="Str tr soup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Str tr soup" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Validation$alexis.coverage" NAME="alexis Coverage Results" MODIFIED="1673273296189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Validation$HanoiRules.coverage" NAME="HanoiRules Coverage Results" MODIFIED="1673599657839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Validation$ParentTraceProxy.coverage" NAME="ParentTraceProxy Coverage Results" MODIFIED="1673875312011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Validation$alexis.coverage" NAME="alexis Coverage Results" MODIFIED="1675088151715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Misc" />
     <SUITE FILE_PATH="coverage/Validation$testnbBit.coverage" NAME="testnbBit Coverage Results" MODIFIED="1673599608996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Validation$ExempleSoup.coverage" NAME="ExempleSoup Coverage Results" MODIFIED="1674479343487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Soup" />
+    <SUITE FILE_PATH="coverage/Validation$ExempleSoup.coverage" NAME="ExempleSoup Coverage Results" MODIFIED="1675083244466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Soup" />
     <SUITE FILE_PATH="coverage/Validation$nbBits.coverage" NAME="nbBits Coverage Results" MODIFIED="1673599118769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Validation$testnbBits.coverage" NAME="testnbBits Coverage Results" MODIFIED="1673598244539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/Validation$ParentTraceProxy__1_.coverage" NAME="ParentTraceProxy (1) Coverage Results" MODIFIED="1674479332608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Trace" />
+    <SUITE FILE_PATH="coverage/Validation$ParentTraceProxy__1_.coverage" NAME="ParentTraceProxy (1) Coverage Results" MODIFIED="1675080198933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Trace" />
   </component>
 </project>

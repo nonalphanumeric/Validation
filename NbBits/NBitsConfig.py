@@ -3,10 +3,15 @@ from SoupProgram import SoupProgram
 class NBitsConfig:
     def __init__(self, n): #n nb de bits
         self.value = 0
-    def __eq__(self):
-        #blabla
+
+    def __eq__(self, other):
+        return self.n == other.n
+
     def __hash__(self):
-        #blabla
+        return 1
+
+    def __str__(self):
+        return "nbbits configurtation %d" % self.n
 
 
 soup = SoupProgram(NBitsConfig())

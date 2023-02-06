@@ -8,5 +8,4 @@ class Rule:
         return [self.effect(config)]
 
 
-    """ faire 4 instances des cette classe là  alice et bob x2 """
 
