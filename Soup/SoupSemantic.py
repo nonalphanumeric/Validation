@@ -22,19 +22,5 @@ class SoupSemantic(SemanticTransitionRelation, ABC):
         return [t]
 
 
-class Str2Tr(TransitionRelation):
 
-    def __init__(self, str):
-        self.str = str
-
-    def roots(self):
-        #return la config initale de semanticTR cf. plus haut
-        return self.str.initalConf()
-
-    def next(self, source):
-        actions = self.str.enabledActions(source)
-        res = []
-        for action in actions:
-            res.extend(self.str.execute(action, source))
-        return res
 

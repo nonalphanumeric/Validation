@@ -4,8 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fea4052e-f261-4521-a758-daa5e47b9b76" name="Changes" comment="Reworked trace, added method to get ALL TRACES because we are genious (gg guys and girls)">
+    <list default="true" id="fea4052e-f261-4521-a758-daa5e47b9b76" name="Changes" comment="Changed get_traces so that we are able to stop at entrypoints instead of &quot;no parents&quot;.">
+      <change afterPath="$PROJECT_DIR$/NbBits/SoupNBits.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Soup/SemanticToTransitionRelation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/TestParentTraceProxy.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NbBits/NBitsConfig.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NbBits/nbits.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Soup/InputSemanticTransitionRelation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Soup/Rule.py" beforeDir="false" afterPath="$PROJECT_DIR$/Soup/Rule.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Soup/SoupSemantic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Soup/SoupSemantic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/TestDicgraph.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/TestDicgraph.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Trace/ParentTraceProxy.py" beforeDir="false" afterPath="$PROJECT_DIR$/Trace/ParentTraceProxy.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Python Unit Test" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -58,29 +67,7 @@
       <recent name="C:\Users\jezeg\PycharmProjects\Validation\Hanoi" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ParentTraceProxy (1)">
-    <configuration name="ExempleSoup" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Validation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Soup" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Soup/ExempleSoup.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.SoupNBits">
     <configuration name="ParentTraceProxy (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Validation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -103,7 +90,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="introBFS" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="SoupNBits" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Validation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -111,12 +98,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Misc" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NbBits" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\jezeg\PycharmProjects\Validation\Misc\introBFS.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NbBits/SoupNBits.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -125,7 +111,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for TestDicgraph.TestDicGraph.test_predicate" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for TestParentTraceProxy.MyTestCase" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Validation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -135,11 +121,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TestDicgraph.TestDicGraph.test_predicate&quot;" />
+      <option name="_new_target" value="&quot;TestParentTraceProxy.MyTestCase&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in TestDicgraph.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for TestParentTraceProxy.MyTestCase.test_trace_with_loop" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Validation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -149,17 +135,31 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Tests/TestDicgraph.py&quot;" />
+      <option name="_new_target" value="&quot;TestParentTraceProxy.MyTestCase.test_trace_with_loop&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in TestParentTraceProxy.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Validation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Tests/TestParentTraceProxy.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.SoupNBits" />
+        <item itemvalue="Python tests.Python tests for TestParentTraceProxy.MyTestCase" />
+        <item itemvalue="Python tests.Python tests in TestParentTraceProxy.py" />
+        <item itemvalue="Python tests.Python tests for TestParentTraceProxy.MyTestCase.test_trace_with_loop" />
         <item itemvalue="Python.ParentTraceProxy (1)" />
-        <item itemvalue="Python tests.Python tests in TestDicgraph.py" />
-        <item itemvalue="Python tests.Python tests for TestDicgraph.TestDicGraph.test_predicate" />
-        <item itemvalue="Python.introBFS" />
-        <item itemvalue="Python.ExempleSoup" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676234039164</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Changed get_traces so that we are able to stop at entrypoints instead of &quot;no parents&quot;.">
+      <created>1676234202496</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1676234202496</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,6 +305,7 @@
     <MESSAGE value="update as part of overhaul (Rozenn did BFS rework, I did DicGraph structure and Aziz did the tests)" />
     <MESSAGE value="Tried to do a better predicate finder, seems to work quite great" />
     <MESSAGE value="Reworked trace, added method to get ALL TRACES because we are genious (gg guys and girls)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reworked trace, added method to get ALL TRACES because we are genious (gg guys and girls)" />
+    <MESSAGE value="Changed get_traces so that we are able to stop at entrypoints instead of &quot;no parents&quot;." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed get_traces so that we are able to stop at entrypoints instead of &quot;no parents&quot;." />
   </component>
 </project>
