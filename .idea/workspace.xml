@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fea4052e-f261-4521-a758-daa5e47b9b76" name="Changes" comment="Changed get_traces so that we are able to stop at entrypoints instead of &quot;no parents&quot;.">
-      <change afterPath="$PROJECT_DIR$/NbBits/SoupNBits.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Soup/SemanticToTransitionRelation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/TestParentTraceProxy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NbBits/NBitsConfig.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NbBits/nbits.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Soup/InputSemanticTransitionRelation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Soup/Rule.py" beforeDir="false" afterPath="$PROJECT_DIR$/Soup/Rule.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Soup/SoupSemantic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Soup/SoupSemantic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/TestDicgraph.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/TestDicgraph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trace/ParentTraceProxy.py" beforeDir="false" afterPath="$PROJECT_DIR$/Trace/ParentTraceProxy.py" afterDir="false" />
+    <list default="true" id="fea4052e-f261-4521-a758-daa5e47b9b76" name="Changes" comment="Tried to do NBits as soup semantic a bit more correctly, still not 100% satisfied.">
+      <change afterPath="$PROJECT_DIR$/Hanoi/SoupHanoi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,8 +57,8 @@
       <recent name="C:\Users\jezeg\PycharmProjects\Validation\Hanoi" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.SoupNBits">
-    <configuration name="ParentTraceProxy (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.SoupHanoi">
+    <configuration name="SoupHanoi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Validation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -76,12 +66,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Trace" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Hanoi" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Trace/ParentTraceProxy.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hanoi/SoupHanoi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.SoupHanoi" />
         <item itemvalue="Python.SoupNBits" />
         <item itemvalue="Python tests.Python tests for TestParentTraceProxy.MyTestCase" />
         <item itemvalue="Python tests.Python tests in TestParentTraceProxy.py" />
         <item itemvalue="Python tests.Python tests for TestParentTraceProxy.MyTestCase.test_trace_with_loop" />
-        <item itemvalue="Python.ParentTraceProxy (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676234202496</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Tried to do NBits as soup semantic a bit more correctly, still not 100% satisfied.">
+      <created>1676244419124</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1676244419124</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,6 +302,7 @@
     <MESSAGE value="Tried to do a better predicate finder, seems to work quite great" />
     <MESSAGE value="Reworked trace, added method to get ALL TRACES because we are genious (gg guys and girls)" />
     <MESSAGE value="Changed get_traces so that we are able to stop at entrypoints instead of &quot;no parents&quot;." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed get_traces so that we are able to stop at entrypoints instead of &quot;no parents&quot;." />
+    <MESSAGE value="Tried to do NBits as soup semantic a bit more correctly, still not 100% satisfied." />
+    <option name="LAST_COMMIT_MESSAGE" value="Tried to do NBits as soup semantic a bit more correctly, still not 100% satisfied." />
   </component>
 </project>
