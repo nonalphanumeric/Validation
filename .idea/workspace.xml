@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fea4052e-f261-4521-a758-daa5e47b9b76" name="Changes" comment="Tried to do a better predicate finder, seems to work quite great">
+    <list default="true" id="fea4052e-f261-4521-a758-daa5e47b9b76" name="Changes" comment="Reworked trace, added method to get ALL TRACES because we are genious (gg guys and girls)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Misc/DicGraph.py" beforeDir="false" afterPath="$PROJECT_DIR$/Misc/DicGraph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/TestDicgraph.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/TestDicgraph.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Trace/ParentTraceProxy.py" beforeDir="false" afterPath="$PROJECT_DIR$/Trace/ParentTraceProxy.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -266,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676226968698</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Reworked trace, added method to get ALL TRACES because we are genious (gg guys and girls)">
+      <created>1676234039164</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1676234039164</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,6 +297,7 @@
     <MESSAGE value="update" />
     <MESSAGE value="update as part of overhaul (Rozenn did BFS rework, I did DicGraph structure and Aziz did the tests)" />
     <MESSAGE value="Tried to do a better predicate finder, seems to work quite great" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tried to do a better predicate finder, seems to work quite great" />
+    <MESSAGE value="Reworked trace, added method to get ALL TRACES because we are genious (gg guys and girls)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reworked trace, added method to get ALL TRACES because we are genious (gg guys and girls)" />
   </component>
 </project>
