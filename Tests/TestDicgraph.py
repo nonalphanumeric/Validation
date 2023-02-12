@@ -1,10 +1,12 @@
 import unittest
 from Misc.DicGraph import DicGraph
 
+
 def generate_graph():
     dico = {0: [1, 2], 1: [3, 4], 2: [5, 6], 3: [], 4: [], 5: [], 6: []}
     roots = [0]
     return DicGraph(dico, roots)
+
 
 def generate_graph_with_loop():
     '''generate a graph with a loop'''
@@ -12,10 +14,12 @@ def generate_graph_with_loop():
     roots = [0]
     return DicGraph(dico, roots)
 
+
 def generate_graph_with_two_roots():
     dico = {0: [1, 2], 1: [3, 4], 2: [5, 6], 3: [], 4: [], 5: [], 6: []}
     roots = [0, 2]
     return DicGraph(dico, roots)
+
 
 class TestDicGraph(unittest.TestCase):
     def test_simple_graph(self):
@@ -71,6 +75,39 @@ class TestDicGraph(unittest.TestCase):
         '''warning, the order of the nodes is not guaranteed, so we need to sort the list'''
         self.assertEqual(sorted(acc), sorted([0, 1, 2, 3, 4, 5, 6]))
 
+    def test_predicate(self):
+        graph = generate_graph()
+        predicate = lambda n: n == 3
+        print(graph.predicate_finder(predicate))
+
+        self.assertEqual(graph.predicate_finder(predicate)[0], True)
+        self.assertEqual(graph.predicate_finder(predicate)[1], [3])
+
+    def test_predicate_greater_than(self):
+        graph = generate_graph()
+        predicate = lambda n: n > 3
+        print(graph.predicate_finder(predicate))
+
+        self.assertEqual(graph.predicate_finder(predicate)[0], True)
+        #sort the list because the order is not guaranteed
+        self.assertEqual(sorted(graph.predicate_finder(predicate)[1]), sorted([4, 5, 6]))
+
+    def test_predicate_with_loop(self):
+        graph = generate_graph_with_loop()
+        predicate = lambda n: n == 3
+        print(graph.predicate_finder(predicate))
+
+        self.assertEqual(graph.predicate_finder(predicate)[0], True)
+        self.assertEqual(graph.predicate_finder(predicate)[1], [3])
+
+    def test_predicate_with_multiple_roots(self):
+        graph = generate_graph_with_two_roots()
+        predicate = lambda n: n == 3
+        print(graph.predicate_finder(predicate))
+
+        self.assertEqual(graph.predicate_finder(predicate)[0], True)
+        self.assertEqual(graph.predicate_finder(predicate)[1], [3])
+
 if __name__ == '__main__':
-    unittest.simple_graph() # Don't know why, but it runs all the test and no just the first one.
+    unittest.simple_graph()  # Don't know why, but it runs all the test and no just the first one.
 

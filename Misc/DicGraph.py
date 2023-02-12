@@ -1,7 +1,9 @@
 from collections import deque
 
+from Misc.transitionRelation import TransitionRelation
 
-class DicGraph:
+
+class DicGraph(TransitionRelation):
     '''
     A graph represented as a dictionary.
     Exemples:
@@ -65,6 +67,29 @@ class DicGraph:
                     frontier.append(n)
         on_exit(source, acc)
         return knowns
+
+    '''
+    Using bfs, this function allows for predicate finding.'''
+
+    def predicate_finder(self, predicate=lambda n: False):
+        #create the accumulator which contains a boolean if the predicate is true at least once, and the list
+        #nodes for which the predicate is true
+        accumulator = [False, []]
+
+        def check_predicate(s, n, a):
+
+            # check predicate, if true, append the node to the accumulator
+            if predicate(n):
+                a[0] = True
+                a[1].append(n)
+
+        self.bfs(accumulator, on_entry=check_predicate)
+        return accumulator
+
+
+
+
+
 
     
 

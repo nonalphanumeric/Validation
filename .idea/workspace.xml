@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fea4052e-f261-4521-a758-daa5e47b9b76" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/Tests/TestDicgraph.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="fea4052e-f261-4521-a758-daa5e47b9b76" name="Changes" comment="update as part of overhaul (Rozenn did BFS rework, I did DicGraph structure and Aziz did the tests)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Misc/DicGraph.py" beforeDir="false" afterPath="$PROJECT_DIR$/Misc/DicGraph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Misc/introBFS.py" beforeDir="false" afterPath="$PROJECT_DIR$/Misc/introBFS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Misc/transitionRelation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Misc/transitionRelation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/TestDicgraph.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/TestDicgraph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trace/ParentTraceProxy.py" beforeDir="false" afterPath="$PROJECT_DIR$/Trace/ParentTraceProxy.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +26,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -37,17 +37,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/work/Documents/VALIDATION",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/work/Documents/VALIDATION&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jezeg\PycharmProjects\Validation\Soup" />
@@ -106,28 +106,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ParentTraceProxy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Validation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\jezeg\PycharmProjects\Validation\Trace\ParentTraceProxy.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="introBFS" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Validation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -150,6 +128,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for TestDicgraph.TestDicGraph.test_predicate" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Validation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;TestDicgraph.TestDicGraph.test_predicate&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests in TestDicgraph.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Validation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,10 +159,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Python tests in TestDicgraph.py" />
+        <item itemvalue="Python tests.Python tests for TestDicgraph.TestDicGraph.test_predicate" />
         <item itemvalue="Python.ParentTraceProxy (1)" />
         <item itemvalue="Python.introBFS" />
         <item itemvalue="Python.ExempleSoup" />
-        <item itemvalue="Python.ParentTraceProxy" />
       </list>
     </recent_temporary>
   </component>
@@ -261,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675687094118</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="update as part of overhaul (Rozenn did BFS rework, I did DicGraph structure and Aziz did the tests)">
+      <created>1676222816856</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1676222816856</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,6 +284,7 @@
     <MESSAGE value="soupprogramm, soupsemantic, rule" />
     <MESSAGE value="Str tr soup" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="update as part of overhaul (Rozenn did BFS rework, I did DicGraph structure and Aziz did the tests)" />
+    <option name="LAST_COMMIT_MESSAGE" value="update as part of overhaul (Rozenn did BFS rework, I did DicGraph structure and Aziz did the tests)" />
   </component>
 </project>
