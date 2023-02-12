@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fea4052e-f261-4521-a758-daa5e47b9b76" name="Changes" comment="update as part of overhaul (Rozenn did BFS rework, I did DicGraph structure and Aziz did the tests)">
+    <list default="true" id="fea4052e-f261-4521-a758-daa5e47b9b76" name="Changes" comment="Tried to do a better predicate finder, seems to work quite great">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Misc/DicGraph.py" beforeDir="false" afterPath="$PROJECT_DIR$/Misc/DicGraph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Misc/transitionRelation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Misc/transitionRelation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/TestDicgraph.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/TestDicgraph.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Trace/ParentTraceProxy.py" beforeDir="false" afterPath="$PROJECT_DIR$/Trace/ParentTraceProxy.py" afterDir="false" />
     </list>
@@ -61,7 +60,7 @@
       <recent name="C:\Users\jezeg\PycharmProjects\Validation\Hanoi" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in TestDicgraph.py">
+  <component name="RunManager" selected="Python.ParentTraceProxy (1)">
     <configuration name="ExempleSoup" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Validation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -158,9 +157,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ParentTraceProxy (1)" />
         <item itemvalue="Python tests.Python tests in TestDicgraph.py" />
         <item itemvalue="Python tests.Python tests for TestDicgraph.TestDicGraph.test_predicate" />
-        <item itemvalue="Python.ParentTraceProxy (1)" />
         <item itemvalue="Python.introBFS" />
         <item itemvalue="Python.ExempleSoup" />
       </list>
@@ -260,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676222816856</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Tried to do a better predicate finder, seems to work quite great">
+      <created>1676226968698</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1676226968698</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,6 +291,7 @@
     <MESSAGE value="Str tr soup" />
     <MESSAGE value="update" />
     <MESSAGE value="update as part of overhaul (Rozenn did BFS rework, I did DicGraph structure and Aziz did the tests)" />
-    <option name="LAST_COMMIT_MESSAGE" value="update as part of overhaul (Rozenn did BFS rework, I did DicGraph structure and Aziz did the tests)" />
+    <MESSAGE value="Tried to do a better predicate finder, seems to work quite great" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tried to do a better predicate finder, seems to work quite great" />
   </component>
 </project>

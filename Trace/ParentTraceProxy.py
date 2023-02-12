@@ -43,7 +43,31 @@ class ParentTraceProxy(IdentityProxy):
             res.append(revdic[courant][0])
             #on passe au parent
             courant = revdic[courant][0]
+            #Danger, si on a un cycle, on risque de boucler indéfiniment, fix pas genial, mais qui devrait faire l'affaire:
+            #si le parent est un entrypoint, on arrête.
+            if courant in self.operand.roots():
+                break
         return res
+
+    #Lets do a rework that use recursion to get all traces:
+    def get_traces(self, dic, target, path=None, all_paths=None):
+        if path is None:
+            path = []
+        if all_paths is None:
+            all_paths = []
+
+        path.append(target)
+        revdic = self.reverse_graph(dic)
+
+        if revdic[target]: #check if it has at least a parent
+            for parent in revdic[target]: #recursion on all parents
+                self.get_traces(dic, parent, path.copy(), all_paths)
+        else: #if it has no parent, we have a trace, TODO: modify for stopping at entrypoints
+            all_paths.append(path)
+
+        return all_paths
+
+
 
 
     def reverse_graph(self, dic):
@@ -74,3 +98,13 @@ if __name__ == '__main__':
     print(ptp.reverse_graph(dic))
 
     print(ptp.get_trace(dic, 6))
+    print(ptp.get_traces(dic, 6))
+
+    #lets generate a new graph with some nodes that have multiples parents
+    dic = {0: [1,2,7,8], 1: [3,4], 2: [5,6], 3: [], 4: [], 5: [], 6: [], 7: [5,6], 8: [5,6]}
+
+    graph = DicGraph(dic, [0])
+    ptp = ParentTraceProxy(graph, {})
+    print(ptp.get_trace(dic, 6))
+    print(ptp.get_traces(dic, 6)) #IT WORKSSSSSSSSSSS !!! I'M A GENIOUS !!!!!!$
+

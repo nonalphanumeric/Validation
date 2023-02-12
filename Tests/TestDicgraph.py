@@ -108,6 +108,12 @@ class TestDicGraph(unittest.TestCase):
         self.assertEqual(graph.predicate_finder(predicate)[0], True)
         self.assertEqual(graph.predicate_finder(predicate)[1], [3])
 
+    def test_traces(self):
+        graph = generate_graph()
+        traces = graph.get_traces([3])
+        print(traces)
+        self.assertEqual(True, True)
+
 if __name__ == '__main__':
     unittest.simple_graph()  # Don't know why, but it runs all the test and no just the first one.
 

@@ -16,8 +16,8 @@ class DicGraph(TransitionRelation):
     3 4   5 6
     '''
     def __init__(self, dico, roots):
-        self.graph = dico  # dico a utiliser
-        self.entrypoints = roots  # les points d'entree
+        self.graph = dico
+        self.entrypoints = roots
 
     def roots(self):
         return self.entrypoints
@@ -85,6 +85,8 @@ class DicGraph(TransitionRelation):
 
         self.bfs(accumulator, on_entry=check_predicate)
         return accumulator
+
+
 
 
 
