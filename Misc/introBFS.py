@@ -1,63 +1,9 @@
 from collections import deque
 
-"""
-graphe = ["x", [["y", []], ["z", [["w", []], ["a", []]]]]]
-def parcours_profondeur(graphe):
-    valeur = graphe[0]
-    print(valeur)
-    n = len(graphe[1])
-    if n == 0 :
-        print("fin")
-    else :
-        for i in range(n):
-            parcours_profondeur(graphe[1][i])
-"""
-
-
-class Noeud:
-    def __init__(self, valeur):
-        self.valeur = valeur
-        self.enfants = []
-
-    def ajouterEnfant(self, enfant):
-        self.enfants.append(enfant)
-
-    def __str__(self):
-        return "Noeud %d" % self.valeur
-
-    def __repr__(self):
-        return self.__str__()
-
-
-def parcours_profondeur(noeud, marques=[], profondeur=0):
-    n = len(noeud.enfants)
-    """
-    for _ in range(profondeur) :
-        print(" ", end="")
-    print(noeud.valeur)
-    """
-    if n > 0:
-        for enfant in noeud.enfants:
-            if enfant not in marques:
-                marques.append(enfant)
-                parcours_profondeur(enfant, marques, profondeur + 1)
-    return marques
-
-
-def parcours_largeur(sommet, marques=[]):
-    file = []
-    file.insert(0, sommet)
-    marques.append(sommet)
-    while len(file) != 0:
-        noeud = file.pop()
-        # print(noeud.valeur)
-        for enfant in noeud.enfants:
-            if enfant not in marques:
-                file.insert(0, enfant)
-                marques.append(enfant)
-    return marques
-
-
+'''
+/!\ TO BE SCRAPED /!\
+Most of the work will be transfered to DicGraph.py and this file will be deleted as part of a rework/overhaul
+'''
 class Graph(dict):
     def __init__(self):
         self.initial = None
@@ -141,40 +87,6 @@ if __name__ == "__main__":
     o = "f"
     bfs(graph, o, basic1, basic2, nothing2)
 
-    """
-    a
-    |
-    b c d
-    | |
-    | r  t ----- a
-    e f --- f
 
-    """
-
-    """
-    pere = Noeud(3)
-    enfant_pere1 = Noeud(1)
-    enfant_enfant_pere11 = Noeud(10)
-    enfant_enfant_pere12 = Noeud(9)
-    enfant_pere1.ajouterEnfant(enfant_enfant_pere11)
-    enfant_pere1.ajouterEnfant(enfant_enfant_pere12)
-    enfant_pere2 = Noeud(4)
-    enfant_enfant_pere21 = Noeud(4)
-    enfant_enfant_pere22 = Noeud(14)
-    enfant_pere2.ajouterEnfant(enfant_enfant_pere21)
-    enfant_pere2.ajouterEnfant(enfant_enfant_pere22)
-    pere.ajouterEnfant(enfant_pere1)
-    pere.ajouterEnfant(enfant_pere2)
-    enfant_enfant_pere21.ajouterEnfant(enfant_enfant_pere22)
-    Arbre :
-        3 _________
-        |          |
-        1 ___      4
-        |    |   |    |
-        10   9   4  - 14
-    # parcours_profondeur(pere)
-    noeuds = parcours_largeur(pere)
-    print(noeuds)
-    """
 
 
