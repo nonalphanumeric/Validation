@@ -41,7 +41,7 @@ class SoupNBits:
         print(format(res, '#0{}b'.format(self.n + 2)))
 
 if __name__ == "__main__":
-    soup = SoupNBits(3)
+    soup = SoupNBits()
     for res in soup.initialConf():
         soup.print_as_binary(res)
     for rule in soup.enabledActions(0):

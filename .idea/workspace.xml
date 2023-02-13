@@ -4,16 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fea4052e-f261-4521-a758-daa5e47b9b76" name="Changes" comment="It's late, we're getting tired, but Hanoi seems not too bad. Let's try A &amp; B and maybe go to sleep">
-      <change afterPath="$PROJECT_DIR$/AliceAndBob/__init__.py" afterDir="false" />
+    <list default="true" id="fea4052e-f261-4521-a758-daa5e47b9b76" name="Changes" comment="Added the flag for exclusion in alice and bob, did some smart thing with explore_configurations, was hard, bye">
+      <change afterPath="$PROJECT_DIR$/Soup/Stutter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/TestHanoi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/TestNbits.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/TestSoupHanoi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/TestSoupNbits.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Misc/Traversal.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Misc/introBFS.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Soup/Rule.py" beforeDir="false" afterPath="$PROJECT_DIR$/Soup/Rule.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/SoupSemanticTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/AliceAndBob/ABflag.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/AliceAndBob/ABsimple.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/testHanoi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/testnbBit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hanoi/HanoiConfig.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hanoi/HanoiRules.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hanoi/HanoiRules.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hanoi/SoupHanoi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hanoi/SoupHanoi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NbBits/SoupNBits.py" beforeDir="false" afterPath="$PROJECT_DIR$/NbBits/SoupNBits.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Soup/Aconfig.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Soup/ExempleSoup.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Unit Test" />
         <option value="Python Script" />
+        <option value="Python Unit Test" />
       </list>
     </option>
   </component>
@@ -41,17 +45,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/work/Documents/VALIDATION&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/work/Documents/sdf",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jezeg\PycharmProjects\Validation\Soup" />
@@ -65,49 +69,7 @@
       <recent name="C:\Users\jezeg\PycharmProjects\Validation\Hanoi" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ABflag">
-    <configuration name="ABflag" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Validation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AliceAndBob" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AliceAndBob/ABflag.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ABsimple" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Validation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AliceAndBob" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AliceAndBob/ABsimple.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Python tests in TestSoupHanoi.py">
     <configuration name="SoupHanoi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Validation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,28 +91,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SoupNBits" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Validation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NbBits" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NbBits/SoupNBits.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for TestParentTraceProxy.MyTestCase" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for TestSoupHanoi.MyTestCase" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Validation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -160,17 +101,59 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TestParentTraceProxy.MyTestCase&quot;" />
+      <option name="_new_target" value="&quot;TestSoupHanoi.MyTestCase&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for TestSoupNbits.MyTestCase" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Validation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;TestSoupNbits.MyTestCase&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in TestHanoi.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Validation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Tests/TestHanoi.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in TestSoupHanoi.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Validation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Tests/TestSoupHanoi.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ABflag" />
-        <item itemvalue="Python.ABsimple" />
+        <item itemvalue="Python tests.Python tests in TestSoupHanoi.py" />
         <item itemvalue="Python.SoupHanoi" />
-        <item itemvalue="Python.SoupNBits" />
-        <item itemvalue="Python tests.Python tests for TestParentTraceProxy.MyTestCase" />
+        <item itemvalue="Python tests.Python tests for TestSoupHanoi.MyTestCase" />
+        <item itemvalue="Python tests.Python tests for TestSoupNbits.MyTestCase" />
+        <item itemvalue="Python tests.Python tests in TestHanoi.py" />
       </list>
     </recent_temporary>
   </component>
@@ -303,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676245187192</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Added the flag for exclusion in alice and bob, did some smart thing with explore_configurations, was hard, bye">
+      <created>1676250338682</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1676250338682</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,6 +323,18 @@
     <MESSAGE value="Changed get_traces so that we are able to stop at entrypoints instead of &quot;no parents&quot;." />
     <MESSAGE value="Tried to do NBits as soup semantic a bit more correctly, still not 100% satisfied." />
     <MESSAGE value="It's late, we're getting tired, but Hanoi seems not too bad. Let's try A &amp; B and maybe go to sleep" />
-    <option name="LAST_COMMIT_MESSAGE" value="It's late, we're getting tired, but Hanoi seems not too bad. Let's try A &amp; B and maybe go to sleep" />
+    <MESSAGE value="Added the flag for exclusion in alice and bob, did some smart thing with explore_configurations, was hard, bye" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the flag for exclusion in alice and bob, did some smart thing with explore_configurations, was hard, bye" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Tests/TestHanoi.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

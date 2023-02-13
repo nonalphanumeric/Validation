@@ -27,8 +27,8 @@ class SoupHanoi(TransitionRelation):
         # we return the new configuration
         return t
 
-    def __init__(self, n):
-        self.n = n
+    def __init__(self):
+
         self.program = SoupProgram([[1, 2, 3], [], []])
         # What are the actions ?
         # We can move a disk from a tower to another tower, lets say from i to j.
@@ -38,8 +38,8 @@ class SoupHanoi(TransitionRelation):
         # Also we need the check if the tower i is not empty.
         # Let's implement a method above for that thing
 
-        for i in range(n):
-            for j in range(n):
+        for i in range(3):
+            for j in range(3):
                 if i != j:  # Let's start simple and not allow to move a disk to the same tower
                     rule_n = RuleAction("Move disk from " + str(i) + " to " + str(j),
                                         lambda source, i=i, j=j: self.guardHanoi(source, i, j),
@@ -58,7 +58,7 @@ class SoupHanoi(TransitionRelation):
 
 
 if __name__ == '__main__':
-    soup = SoupHanoi(3)
+    soup = SoupHanoi()
     print(soup.initialConf())
 
     print("Here is a list of all rules as references: ")

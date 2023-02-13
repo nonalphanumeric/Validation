@@ -11,18 +11,17 @@ class HanoiRules(TransitionRelation):
     def next(self, source):
         # from a source configuration, compute all possibles next configurations
         all_config = []
-        for i in range(0, 3):
-            for j in range(0, 3):
-                config = deepcopy(source)
+        for i in range(3):
+            for j in range(3):
                 if i != j:
-                    if len(config[i]) != 0:
-                        if len(config[j]) == 0:
-                            config[j].insert(0, config[i].pop(0))
-                            all_config.append(config)
-                        elif config[i][len(config[i]) - 1] < config[j][len(config[j]) - 1]:
-                            config[j].insert(0,config[i].pop(0))
-                            all_config.append(config)
+                    if len(source[i]) == 0:
+                        continue
+                    if len(source[j]) == 0 or source[i][-1] < source[j][-1]:
+                        config = deepcopy(source)
+                        config[j].append(config[i].pop())
+                        all_config.append(config)
         return all_config
+
 
     def roots(self):
         return self.initial
