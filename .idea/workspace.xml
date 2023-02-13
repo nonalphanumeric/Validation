@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fea4052e-f261-4521-a758-daa5e47b9b76" name="Changes" comment="Did a whole bunch of things, deleted some old files. Aziz's coffee is good">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Misc/transitionRelation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Misc/transitionRelation.py" afterDir="false" />
+    <list default="true" id="fea4052e-f261-4521-a758-daa5e47b9b76" name="Changes" comment="Added some pydoc">
+      <change beforePath="$PROJECT_DIR$/Misc/DicGraph.py" beforeDir="false" afterPath="$PROJECT_DIR$/Misc/DicGraph.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -289,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676294917578</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Added some pydoc">
+      <created>1676295257972</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1676295257972</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,7 +327,8 @@
     <MESSAGE value="It's late, we're getting tired, but Hanoi seems not too bad. Let's try A &amp; B and maybe go to sleep" />
     <MESSAGE value="Added the flag for exclusion in alice and bob, did some smart thing with explore_configurations, was hard, bye" />
     <MESSAGE value="Did a whole bunch of things, deleted some old files. Aziz's coffee is good" />
-    <option name="LAST_COMMIT_MESSAGE" value="Did a whole bunch of things, deleted some old files. Aziz's coffee is good" />
+    <MESSAGE value="Added some pydoc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added some pydoc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
