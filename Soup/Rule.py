@@ -30,10 +30,9 @@ class RuleAction(Rule, ABC):
 
     def execute(self, config):
         #copy the config
-        print(config)
         res = copy.deepcopy(config)
         res = self.action(res)
-        print(res)
+
 
         return [res]
 

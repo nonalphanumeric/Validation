@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fea4052e-f261-4521-a758-daa5e47b9b76" name="Changes" comment="Tried to do NBits as soup semantic a bit more correctly, still not 100% satisfied.">
-      <change afterPath="$PROJECT_DIR$/Hanoi/SoupHanoi.py" afterDir="false" />
+    <list default="true" id="fea4052e-f261-4521-a758-daa5e47b9b76" name="Changes" comment="It's late, we're getting tired, but Hanoi seems not too bad. Let's try A &amp; B and maybe go to sleep">
+      <change afterPath="$PROJECT_DIR$/AliceAndBob/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Misc/Traversal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Misc/introBFS.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Soup/Rule.py" beforeDir="false" afterPath="$PROJECT_DIR$/Soup/Rule.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/SoupSemanticTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/AliceAndBob/ABflag.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/AliceAndBob/ABsimple.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testHanoi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testnbBit.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +65,49 @@
       <recent name="C:\Users\jezeg\PycharmProjects\Validation\Hanoi" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.SoupHanoi">
+  <component name="RunManager" selected="Python.ABflag">
+    <configuration name="ABflag" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Validation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AliceAndBob" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AliceAndBob/ABflag.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ABsimple" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Validation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AliceAndBob" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AliceAndBob/ABsimple.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="SoupHanoi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Validation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -114,41 +164,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for TestParentTraceProxy.MyTestCase.test_trace_with_loop" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Validation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TestParentTraceProxy.MyTestCase.test_trace_with_loop&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in TestParentTraceProxy.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Validation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Tests/TestParentTraceProxy.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ABflag" />
+        <item itemvalue="Python.ABsimple" />
         <item itemvalue="Python.SoupHanoi" />
         <item itemvalue="Python.SoupNBits" />
         <item itemvalue="Python tests.Python tests for TestParentTraceProxy.MyTestCase" />
-        <item itemvalue="Python tests.Python tests in TestParentTraceProxy.py" />
-        <item itemvalue="Python tests.Python tests for TestParentTraceProxy.MyTestCase.test_trace_with_loop" />
       </list>
     </recent_temporary>
   </component>
@@ -274,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676244419124</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="It's late, we're getting tired, but Hanoi seems not too bad. Let's try A &amp; B and maybe go to sleep">
+      <created>1676245187192</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1676245187192</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,6 +332,7 @@
     <MESSAGE value="Reworked trace, added method to get ALL TRACES because we are genious (gg guys and girls)" />
     <MESSAGE value="Changed get_traces so that we are able to stop at entrypoints instead of &quot;no parents&quot;." />
     <MESSAGE value="Tried to do NBits as soup semantic a bit more correctly, still not 100% satisfied." />
-    <option name="LAST_COMMIT_MESSAGE" value="Tried to do NBits as soup semantic a bit more correctly, still not 100% satisfied." />
+    <MESSAGE value="It's late, we're getting tired, but Hanoi seems not too bad. Let's try A &amp; B and maybe go to sleep" />
+    <option name="LAST_COMMIT_MESSAGE" value="It's late, we're getting tired, but Hanoi seems not too bad. Let's try A &amp; B and maybe go to sleep" />
   </component>
 </project>
