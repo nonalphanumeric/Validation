@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fea4052e-f261-4521-a758-daa5e47b9b76" name="Changes" comment="Added the flag for exclusion in alice and bob, did some smart thing with explore_configurations, was hard, bye">
-      <change afterPath="$PROJECT_DIR$/Soup/Stutter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/TestHanoi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/TestNbits.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/TestSoupHanoi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/TestSoupNbits.py" afterDir="false" />
+    <list default="true" id="fea4052e-f261-4521-a758-daa5e47b9b76" name="Changes" comment="Did a whole bunch of things, deleted some old files. Aziz's coffee is good">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hanoi/HanoiConfig.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hanoi/HanoiRules.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hanoi/HanoiRules.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hanoi/SoupHanoi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hanoi/SoupHanoi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NbBits/SoupNBits.py" beforeDir="false" afterPath="$PROJECT_DIR$/NbBits/SoupNBits.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Soup/Aconfig.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Soup/ExempleSoup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Misc/transitionRelation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Misc/transitionRelation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -293,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676250338682</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Did a whole bunch of things, deleted some old files. Aziz's coffee is good">
+      <created>1676294917578</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1676294917578</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,7 +320,8 @@
     <MESSAGE value="Tried to do NBits as soup semantic a bit more correctly, still not 100% satisfied." />
     <MESSAGE value="It's late, we're getting tired, but Hanoi seems not too bad. Let's try A &amp; B and maybe go to sleep" />
     <MESSAGE value="Added the flag for exclusion in alice and bob, did some smart thing with explore_configurations, was hard, bye" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the flag for exclusion in alice and bob, did some smart thing with explore_configurations, was hard, bye" />
+    <MESSAGE value="Did a whole bunch of things, deleted some old files. Aziz's coffee is good" />
+    <option name="LAST_COMMIT_MESSAGE" value="Did a whole bunch of things, deleted some old files. Aziz's coffee is good" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
