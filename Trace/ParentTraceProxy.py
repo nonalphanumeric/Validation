@@ -3,25 +3,25 @@ from Misc.DicGraph import DicGraph
 from Trace.identityProxy import IdentityProxy
 
 
-'''
-
-'''
-
 class ParentTraceProxy(IdentityProxy):
     def __init__(self, operand, dict):
         super().__init__(operand)
         self.dict = dict
 
     def roots(self):
-        #Copie les entités de TransitionRelation dans dict et retourne les EntryPoints
+        """
+        Copies the entities of the TransitionRelation into dict and returns the EntryPoints.
+        """
         neighbours = self.operand.getEntry()
         for n in neighbours:
             self.dict[n] = n
         return neighbours
 
     def next(self, source):
-        #Retourne les entités suivantes de source et effectue aussi une copie de la TransitionRelation dans dict
-        #des éléments qui ne sont éventuellement pas déjà dans dict.
+        """
+        Returns the next entities from source and also copies the TransitionRelation into dict
+        for elements that are not already in dict.
+        """
         neighbours = self.operand.next(source)
         for n in neighbours:
             if n not in self.dict:
@@ -29,26 +29,30 @@ class ParentTraceProxy(IdentityProxy):
         return neighbours
 
     def get_trace(self,dic, target):
-        #Attention, ne retourne qu'une trace pour le moment (en passant par le premier parent)
-        res = [target] #trace sera la liste res
-        courant = target
+        """
+        Returns one trace for the moment (by passing through the first parent).
+        """
+        res = [target] #trace is the res list
+        current = target
 
-        #On remonte la trace en utilisant le dictionnaire reverse jusqu'à arriver à un élément qui n'a pas de parent
+        #We go up the trace using the reverse dictionary until we reach an element that has no parent.
         revdic=self.reverse_graph(dic)
-        #tant que courant a un parent
-        while revdic[courant]:
-            #on ajoute le parent à la trace
-            res.append(revdic[courant][0])
-            #on passe au parent
-            courant = revdic[courant][0]
-            #Danger, si on a un cycle, on risque de boucler indéfiniment, fix pas genial, mais qui devrait faire l'affaire:
-            #si le parent est un entrypoint, on arrête.
-            if courant in self.operand.roots():
+        #while current has a parent
+        while revdic[current]:
+            #add the parent to the trace
+            res.append(revdic[current][0])
+            #go to the parent
+            current = revdic[current][0]
+            #Danger, if we have a cycle, we risk looping indefinitely, not a great fix, but it should do:
+            #if the parent is an entrypoint, stop.
+            if current in self.operand.roots():
                 break
         return res
 
-    #Lets do a rework that use recursion to get all traces:
     def get_traces(self, dic, target, path=None, all_paths=None):
+        """
+        Returns all traces using recursion.
+        """
         if path is None:
             path = []
         if all_paths is None:
@@ -67,12 +71,17 @@ class ParentTraceProxy(IdentityProxy):
 
 
 
-
     def reverse_graph(self, dic):
-        #dic est de la forme (entité, [entités enfants])
-        #retourne un dictionnaire de la forme (entité, [entités parents])
-        #add the entrypoints
+        """
+        This function takes a dictionary `dic` in the form (entity, [child entities])
+        and returns a dictionary in the form (entity, [parent entities]).
 
+        :param dic: dictionary with entity as key and list of child entities as value
+        :type dic: dict
+
+        :returns: dictionary with entity as key and list of parent entities as value
+        :rtype: dict
+        """
         res = {}
         for k in dic:
             res[k] = []
