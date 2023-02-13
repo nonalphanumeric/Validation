@@ -82,6 +82,8 @@ if __name__ == "__main__":
                     print("\t\t\t\t" + str(new_conf4))
     '''
 
+
+    #gotta love recursion
     soup.explore_configurations(initial, 5)
 
 

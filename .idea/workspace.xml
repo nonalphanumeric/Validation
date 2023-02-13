@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fea4052e-f261-4521-a758-daa5e47b9b76" name="Changes" comment="pydoc for SoupSemantic">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Soup/Rule.py" beforeDir="false" afterPath="$PROJECT_DIR$/Soup/Rule.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Soup/SemanticToTransitionRelation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Soup/SemanticToTransitionRelation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Soup/SemanticTransitionRelation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Soup/SemanticTransitionRelation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Soup/SoupProgram.py" beforeDir="false" afterPath="$PROJECT_DIR$/Soup/SoupProgram.py" afterDir="false" />
+    <list default="true" id="fea4052e-f261-4521-a758-daa5e47b9b76" name="Changes" comment="trace pydoc">
+      <change beforePath="$PROJECT_DIR$/AliceAndBob/ABflag.py" beforeDir="false" afterPath="$PROJECT_DIR$/AliceAndBob/ABflag.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -313,7 +309,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676295525132</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="added various pydoc">
+      <created>1676296079788</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1676296079788</updated>
+    </task>
+    <task id="LOCAL-00023" summary="trace pydoc">
+      <created>1676296314596</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1676296314596</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,7 +358,9 @@
     <MESSAGE value="Added some pydoc" />
     <MESSAGE value="pydoc for DicGraph" />
     <MESSAGE value="pydoc for SoupSemantic" />
-    <option name="LAST_COMMIT_MESSAGE" value="pydoc for SoupSemantic" />
+    <MESSAGE value="added various pydoc" />
+    <MESSAGE value="trace pydoc" />
+    <option name="LAST_COMMIT_MESSAGE" value="trace pydoc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
